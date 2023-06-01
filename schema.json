@@ -1,0 +1,45 @@
+{
+    "Device": {
+        "Device Type": "",
+        "Device Model": "",
+        "Device Unique Serial Code": "",
+        "Device Firmware Version": "",
+        "Calibration Date": "",
+        "Application name & version": ""
+    },
+    "Measurement": {
+        "Measurement Frequency": "",
+        "Start Time": "",
+        "Last measurement": "",
+        "Device Location Code": "",
+        "Time Zone": ""
+    },
+    "Subject": {
+        "Subject Code": "",
+        "Date of Birth": "",
+        "Sex": "",
+        "Height": "",
+        "Weight": "",
+        "Handedness Code": "",
+        "Subject Notes": ""
+    },
+    "Study Center": {
+        "Study Centre": "",
+        "Study Code": "",
+        "Investigator ID": "",
+        "Exercise Type": "",
+        "Config Operator ID": "",
+        "Config Time": "",
+        "Config Notes": "",
+        "Extract Operator ID": "",
+        "Extract Time": "",
+        "Extract Notes": ""
+    },
+    "Sensor": {
+        "Sensor type": "",
+        "Range": "",
+        "Resolution": "",
+        "Units": "",
+        "Additional information": ""
+    }
+}
