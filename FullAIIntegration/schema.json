@@ -1,0 +1,320 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Device": {
+      "type": "object",
+      "properties": {
+        "Device Type": {
+          "type": "string"
+        },
+        "Device Model": {
+          "type": "string"
+        },
+        "Device Unique Serial Code": {
+          "type": "string"
+        },
+        "Device Firmware Version": {
+          "type": "string"
+        },
+        "Calibration Date": {
+          "type": "string"
+        },
+        "Application name & version": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Device Type",
+        "Device Model",
+        "Device Unique Serial Code",
+        "Device Firmware Version",
+        "Calibration Date",
+        "Application name & version"
+      ]
+    },
+    "Measurement": {
+      "type": "object",
+      "properties": {
+        "Measurement Frequency": {
+          "type": "string"
+        },
+        "Start Time": {
+          "type": "string"
+        },
+        "Last measurement": {
+          "type": "string"
+        },
+        "Device Location Code": {
+          "type": "string"
+        },
+        "Time Zone": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Measurement Frequency",
+        "Start Time",
+        "Last measurement",
+        "Device Location Code",
+        "Time Zone"
+      ]
+    },
+    "Subject": {
+      "type": "object",
+      "properties": {
+        "Subject Code": {
+          "type": "string"
+        },
+        "Date of Birth": {
+          "type": "string"
+        },
+        "Sex": {
+          "type": "string"
+        },
+        "Height": {
+          "type": "string"
+        },
+        "Weight": {
+          "type": "string"
+        },
+        "Handedness Code": {
+          "type": "string"
+        },
+        "Subject Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Subject Code",
+        "Date of Birth",
+        "Sex",
+        "Height",
+        "Weight",
+        "Handedness Code",
+        "Subject Notes"
+      ]
+    },
+    "Study Center": {
+      "type": "object",
+      "properties": {
+        "Study Centre": {
+          "type": "string"
+        },
+        "Study Code": {
+          "type": "string"
+        },
+        "Investigator ID": {
+          "type": "string"
+        },
+        "Exercise Type": {
+          "type": "string"
+        },
+        "Config Operator ID": {
+          "type": "string"
+        },
+        "Config Time": {
+          "type": "string"
+        },
+        "Config Notes": {
+          "type": "string"
+        },
+        "Extract Operator ID": {
+          "type": "string"
+        },
+        "Extract Time": {
+          "type": "string"
+        },
+        "Extract Notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Study Centre",
+        "Study Code",
+        "Investigator ID",
+        "Exercise Type",
+        "Config Operator ID",
+        "Config Time",
+        "Config Notes",
+        "Extract Operator ID",
+        "Extract Time",
+        "Extract Notes"
+      ]
+    },
+    "Sensor": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Sensor type": {
+              "type": "string"
+            },
+            "Range": {
+              "type": "string"
+            },
+            "Resolution": {
+              "type": "string"
+            },
+            "Units": {
+              "type": "string"
+            },
+            "Additional information": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Sensor type",
+            "Range",
+            "Resolution",
+            "Units",
+            "Additional information"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Sensor type": {
+              "type": "string"
+            },
+            "Range": {
+              "type": "string"
+            },
+            "Resolution": {
+              "type": "string"
+            },
+            "Units": {
+              "type": "string"
+            },
+            "Additional information": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Sensor type",
+            "Range",
+            "Resolution",
+            "Units",
+            "Additional information"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Sensor type": {
+              "type": "string"
+            },
+            "Range": {
+              "type": "string"
+            },
+            "Resolution": {
+              "type": "string"
+            },
+            "Units": {
+              "type": "string"
+            },
+            "Additional information": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Sensor type",
+            "Range",
+            "Resolution",
+            "Units",
+            "Additional information"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Sensor type": {
+              "type": "string"
+            },
+            "Range": {
+              "type": "string"
+            },
+            "Resolution": {
+              "type": "string"
+            },
+            "Units": {
+              "type": "string"
+            },
+            "Additional information": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Sensor type",
+            "Range",
+            "Resolution",
+            "Units",
+            "Additional information"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Sensor type": {
+              "type": "string"
+            },
+            "Range": {
+              "type": "string"
+            },
+            "Resolution": {
+              "type": "string"
+            },
+            "Units": {
+              "type": "string"
+            },
+            "Additional information": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Sensor type",
+            "Range",
+            "Resolution",
+            "Units",
+            "Additional information"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Sensor type": {
+              "type": "string"
+            },
+            "Range": {
+              "type": "string"
+            },
+            "Resolution": {
+              "type": "string"
+            },
+            "Units": {
+              "type": "string"
+            },
+            "Additional information": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Sensor type",
+            "Range",
+            "Resolution",
+            "Units",
+            "Additional information"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "Device",
+    "Measurement",
+    "Subject",
+    "Study Center",
+    "Sensor"
+  ]
+}
