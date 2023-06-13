@@ -25,4 +25,4 @@ This is a small tool that tries to automate writing parsers in python for raw da
 - Hit "Generate Parser" and code generation will run until something executable is generated or 10 code files have been created.
 
 # Example execution result
-  ![Example Execution result](./execution_exmaple.png)
+  ![Example Execution result](./execution_example.png)
