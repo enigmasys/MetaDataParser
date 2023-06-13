@@ -88,7 +88,7 @@ line_end = st.text_input("End of target data at line: ")
 
 st.title("Hit \" Generate Parser\" to generate parser")
 st.text("""The output of your parser on the file you uploaded will also be displayed. Hit \"Generate Parser\" again 
-            if the output is incorrect. \n We will ask the model to continue generate code until something executable 
+            if the output is incorrect. We will ask the model to continue generate code until something executable 
             is created or 10 parsers have created.""")
 st.button("Generate Parser", type="primary", on_click=makeCall(line_begin, line_end))
 
