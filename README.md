@@ -14,7 +14,7 @@ This is a small tool that tries to automate writing parsers in python for raw da
 - In the directory that has 'frontend.py' run 
 
         streamlit run frontend.py
-  Now you should see the interface
+  Now you should see the interface by opening the link that shows up in your command line
   ![Interface](./interface.png)
   
 # How to use the tool 
